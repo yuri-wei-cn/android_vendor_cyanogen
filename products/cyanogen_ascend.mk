@@ -24,7 +24,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ascend BUILD_ID=GRI40 BUILD_
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Ascend
+        ro.modversion=CM7-Ascend-$(shell date +%m%d%Y)
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
