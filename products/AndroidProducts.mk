@@ -1,6 +1,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_ace.mk \
     $(LOCAL_DIR)/cyanogen_ascend.mk \
+    $(LOCAL_DIR)/cyanogen_c8600.mk \
     $(LOCAL_DIR)/cyanogen_blade.mk \
     $(LOCAL_DIR)/cyanogen_bravo.mk \
     $(LOCAL_DIR)/cyanogen_bravoc.mk \
